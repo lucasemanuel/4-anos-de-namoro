@@ -17,10 +17,7 @@ export default {
 }
 </script>
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Rufina&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Rufina&display=swap');
-  
+<style>  
   body {
     min-height: 100vh;
     display: flex;
@@ -44,7 +41,7 @@ export default {
   }
 
   hr {
-    height: 4px;
+    height: 3.5px;
     border-color: black;
     border-width: 0;
     border-radius: 32px;
@@ -54,7 +51,7 @@ export default {
   }
 
   h1 {
-    font-family: 'Rufina', serif;
+    font-family: var(--main-font);
     font-weight: normal;
     font-size: 72px;
     text-align: center;
@@ -62,7 +59,7 @@ export default {
   }
 
   p {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--text-font);
     font-size: 24px;
     text-align: center;
     letter-spacing: 0.1em;
@@ -70,7 +67,7 @@ export default {
 
   a {
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--text-font);
     font-weight: bold;
     margin: 120px auto 0;
     max-width: 190px;

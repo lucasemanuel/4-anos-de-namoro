@@ -16,6 +16,13 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Rufina&display=swap');
+
+:root {
+  --main-font: 'Rufina', serif;
+  --text-font: 'Raleway', sans-serif;
+}
+
 body {
   margin: 0px;
   padding: 0px;
