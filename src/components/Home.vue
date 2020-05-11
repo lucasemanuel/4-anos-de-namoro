@@ -7,7 +7,7 @@
       <p> - 14 de Maio, 2016 - </p>
       <!-- <p> Já faz 4 anos... </p> -->
     </section>
-    <a href="#">INÍCIO</a>
+    <router-link to="/begin">INÍCIO</router-link>
   </main>
 </template>
 
