@@ -19,17 +19,22 @@ export default {
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Rufina&display=swap');
-  /* font-family: 'PT Serif', serif; */
-  /* font-family: 'Rufina', serif; */
-
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Rufina&display=swap');
+  
   body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, .75)), url("https://live.staticflickr.com/65535/49882402503_e1306a2076_b.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    backdrop-filter: blur(4px) grayscale(100%);
   }
 
   main {
+    color: #fff;
     max-width: 720px;
     margin: 0 auto;
   }
@@ -39,10 +44,11 @@ export default {
   }
 
   hr {
-    height: 5px;
+    height: 4px;
+    border-color: black;
     border-width: 0;
     border-radius: 32px;
-    background: black;
+    background: #fff;
     max-width: 720px;
     margin: 0 16px;
   }
@@ -56,16 +62,29 @@ export default {
   }
 
   p {
+    font-family: 'Raleway', sans-serif;
     font-size: 24px;
     text-align: center;
     letter-spacing: 0.1em;
   }
 
   a {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     margin: 120px auto 0;
     max-width: 190px;
     text-align: center;
+    transition: 1s;
  }
+
+  a:hover {
+    border-radius: 12px;
+    border-color: transparent;
+    color: #000;
+    background: #fff;
+    box-shadow: 0px 0px 2px #fff;
+  }
 
  @media (max-width: 800px) {
    section {
@@ -74,6 +93,10 @@ export default {
  }
 
  @media (max-width: 600px) {
+    body {
+      backdrop-filter: blur(3px) grayscale(100%);
+    }
+
     h1 {
       font-size: 54px;
       margin: 16px 16px;

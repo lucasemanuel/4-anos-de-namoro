@@ -16,11 +16,6 @@ export default {
 </script>
 
 <style>
-:root {
-  --medium: 800px;
-  --small: 800px;
-}
-
 body {
   margin: 0px;
   padding: 0px;
@@ -28,13 +23,13 @@ body {
 
 a {
   display: block;
-  color: #000;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   font-size: 24px;
   padding: 18px;
-  border: 1px solid #000000;
+  border: 2px solid #fff;
   box-sizing: border-box;
   border-radius: 2px;
+  text-decoration: none;
 }
 </style>
