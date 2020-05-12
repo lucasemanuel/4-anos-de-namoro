@@ -13,22 +13,34 @@
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Home',
+  created() {
+    document.querySelector("body").classList.add("home");
+  },
+  destroyed() {
+    document.querySelector("body").classList.remove("home");
+  }
 }
 </script>
 
-<style>  
+<style>
   body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, .75)), url("https://live.staticflickr.com/65535/49882402503_e1306a2076_b.jpg");
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
     backdrop-filter: blur(4px) grayscale(100%);
   }
+
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+</style>
+
+<style scoped>
 
   main {
     color: #fff;
@@ -66,12 +78,12 @@ export default {
   }
 
   a {
+    display: table;
+    padding: 18px 50px;
+    margin: 120px auto 0;
     color: #fff;
     font-family: var(--text-font);
     font-weight: bold;
-    margin: 120px auto 0;
-    max-width: 190px;
-    text-align: center;
     transition: 1s;
  }
 
