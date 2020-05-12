@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <router-view/>
   </div>
 </template>
 
@@ -15,10 +15,11 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Rufina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
   --main-font: 'Rufina', serif;
-  --text-font: 'Raleway', sans-serif;
+  --text-font: 'PT Serif', serif;
 }
 
 body {
