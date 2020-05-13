@@ -4,7 +4,7 @@
       <Navbar/>
       <h1 class="title">{{ title }}</h1>
       <hr>
-      <p>{{ store }}</p>
+      <p v-html="store"></p>
       <router-link to="/">Próxima</router-link>
     </section>
     <div class="img" :class="{ reverse: reverse }"></div>
@@ -23,8 +23,6 @@ export default {
     'store',
     'title',
     'reverse',
-    'photo',
-    'stylePhoto'
   ],
 }
 </script>
