@@ -31,6 +31,7 @@ export default {
     background-position: 50%;
     background-size: cover;
     backdrop-filter: blur(4px) grayscale(100%);
+    -webkit-backdrop-filter: blur(4px) grayscale(100%);
   }
 
   .home {
@@ -104,6 +105,7 @@ export default {
  @media (max-width: 600px) {
     body {
       backdrop-filter: blur(3px) grayscale(100%);
+      -webkit-backdrop-filter: blur(3px) grayscale(100%);
     }
 
     h1 {
