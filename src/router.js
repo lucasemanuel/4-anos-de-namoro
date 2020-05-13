@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './components/Home.vue';
-import Begin from './components/Begin.vue';
+import Begin from './views/Begin.vue';
 
 Vue.use(Router);
 
@@ -15,7 +15,10 @@ export default new Router({
     {
       path: "/begin",
       name: "begin",
-      component: Begin
+      component: Begin,
+      props: {
+        // reverse: true
+      }
     }
   ]
 });

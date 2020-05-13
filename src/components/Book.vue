@@ -1,16 +1,7 @@
 <template>
   <main :class="{ reverse: reverse }">
     <section :class="{ reverse: reverse }">
-      <nav>
-        <ul>
-          <li></li>
-          <li class="active"></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </nav>
+      <Navbar/>
       <h1 class="title">{{ title }}</h1>
       <hr>
       <p>{{ store }}</p>
@@ -21,15 +12,20 @@
 </template>
 
 <script>
+import Navbar from './Navbar.vue';
+
 export default {
   name: 'Book',
+  components: {
+    Navbar
+  },
   props: [
     'store',
     'title',
     'reverse',
     'photo',
     'stylePhoto'
-  ]
+  ],
 }
 </script>
 
@@ -52,32 +48,6 @@ export default {
     background: #fff;
   }
 
-  section nav ul {
-    padding: 0;
-    margin: 0;
-    margin-top: 26px;
-  }
-
-  section nav ul li {
-    flex: 1;
-    width: 16px;
-    height: 16px;
-    border: 2px solid #000;
-    border-radius: 2px;
-    display: inline-block;
-    transition: 1s;
-  }
-
-  section nav ul li.active, section nav ul li:hover {
-    border-radius: 3px;
-    background: #000;
-    box-shadow: 0px 0px 2px #000;
-  }
-
-  section nav ul li:not(:last-child) {
-    margin-right: 16px;
-  }
-
   section h1 {
     font-family: var(--main-font);
     font-style: normal;
@@ -92,7 +62,7 @@ export default {
   }
 
   section hr {
-    height: 2px;
+    padding: 1px 0;
     background: #000;
     border-width: 0;
     border-radius: 64px;
