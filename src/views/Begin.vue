@@ -2,8 +2,6 @@
   <Book :title="title"
     :store="store"
     :reverse="reverse"
-    :photo="photo"
-    :stylePhoto="stylePhoto"
   />
 </template>
 
@@ -17,12 +15,10 @@ export default {
   },
   props: ['reverse'],
   data() {
-    const data = {
+    return {
       title: "Inicio",
       store: store,
-      reverse: false
     }
-    return Object.assign({}, data, this.todo);
   }
 }
 
@@ -41,7 +37,6 @@ const store = `
 <style>
   div.img {
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, .75)), url("https://live.staticflickr.com/65535/49882402503_e1306a2076_b.jpg");
-    /* background: #c4c4c4; */
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
