@@ -24,19 +24,20 @@ export default {
 }
 
 const store = `
-  Um pequena resenha que deu grandes resultados... Em um dia - não qualquer - de agosto, em 2015 estava eu (Lucas Emanuel) instruindo um pelotão formado por desbravadores (criaturas que usam lenço amarelo) pois ao final daqueles mesmo ano iriamos participar de um competição e precisavos treinar muito para vence-la.</br>
-  Neste dia a instrução encerrou mais cedo, pois a mãe de uma desbravadora tinha feito um convite para o clube participar da festinha de aniversário de sua filha, então fomos todos. Estando todos na casa de Marla (ela que tava fazendo 15 aninhos), serviram as comidas de festa e logo apos foi a hora do parabéns.<br>
-  "Parabéns para você... Muitos anos de vida. Com quem será?... Vai depender se <strong>Lucas</strong> (Eu? sim!) vai querer?<br>
-  Eu ainda fiquei com dúvida por varios meses, mas, há quatro anos eu tive a certeza, e disse, vai depender dela, porque eu já tô decidido!
+Uma pequena resenha que deu grandes resultados... Em um dia - não qualquer - de agosto, em 2015, a noite, estava eu (Lucas Emanuel) instruindo um pelotão formado por desbravadores (criaturas que usam lenço amarelo) pois ao final daquele mesmo ano iríamos participar de um competição e estávamos treinando para ela.</br>
+Neste dia a instrução foi encerrada mais cedo, pois a mãe de uma desbravadora tinha feito um convite para o clube participar da festinha de aniversário de sua filha. Estando todos na casa de Marla (ela que tava fazendo 15 aninhos), começaram a servir as comidas de festa e logo após foi a hora de partir o bolo, mas antes do bolo vem o ‘parabéns’. Êêê....<br>
+"Parabéns para você... Muitos anos de vida. Com quem será?... Vai depender se <strong>Lucas</strong> (Eu? sim!) vai querer?<br>
+Nessa hora, eu pensei que iam chamar pelo um amigo meu, mas não, foi eu mesmo. 
+Depois da festa um tio dela ficou fazendo resenha, e foi a partir deste dia que eu tentei me tornar amigo da minha princesa.
 `;
 
 </script>
 
-<style>
-  div.img {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, .75)), url("https://live.staticflickr.com/65535/49882402503_e1306a2076_b.jpg");
+<style scoped>
+  >>> div.img {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, .75)), url('/../../fotos/07.jpeg');
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: center 30%;
     background-size: cover;
   }
 </style>

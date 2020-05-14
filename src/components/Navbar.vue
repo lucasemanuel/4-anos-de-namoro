@@ -3,9 +3,9 @@
     <ul>
       <li><router-link to="/"></router-link></li>
       <li><router-link to="begin"></router-link></li>
-      <li><router-link to="/"></router-link></li>
-      <li><router-link to="/"></router-link></li>
-      <li><router-link to="/"></router-link></li>
+      <li><router-link to="/bye"></router-link></li>
+      <li><router-link to="/courtship"></router-link></li>
+      <li><router-link to="/gift"></router-link></li>
       <li><router-link to="/"></router-link></li>
     </ul>
   </nav>
