@@ -10,14 +10,14 @@
 import Book from '../components/Book.vue';
 
 export default {
-  name: 'Begin',
+  name: 'EndOfYear.vue',
   components: {
     Book
   },
   props: ['reverse', 'next'],
   data() {
     return {
-      title: "O Início",
+      title: "Fim de ano",
       store: store,
     }
   }
