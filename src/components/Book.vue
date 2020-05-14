@@ -5,7 +5,7 @@
       <h1 class="title">{{ title }}</h1>
       <hr>
       <p v-html="store"></p>
-      <router-link to="/">Próxima</router-link>
+      <router-link :to="{ path: next }">Próxima</router-link>
     </section>
     <div class="img" :class="{ reverse: reverse }"></div>
   </main>
@@ -23,6 +23,7 @@ export default {
     'store',
     'title',
     'reverse',
+    'next'
   ],
 }
 </script>
@@ -126,6 +127,24 @@ export default {
 
     section a {
       margin: 64px 0;
+    }
+
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1; 
+      border-radius: 1px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: #888; 
+      border-radius: 1px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555; 
     }
   }
 </style>
