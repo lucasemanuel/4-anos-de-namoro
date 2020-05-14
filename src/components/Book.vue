@@ -40,7 +40,7 @@ export default {
   }
   
   section {
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,7 +100,7 @@ export default {
   }
 
   div.img {
-    height: 50vh;
+    height: 40vh;
   }
 
   @media (min-width: 800px) {

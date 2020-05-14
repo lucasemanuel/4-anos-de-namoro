@@ -35,7 +35,7 @@ Depois da festa um tio dela ficou fazendo resenha, e foi a partir deste dia que 
 
 <style scoped>
   >>> div.img {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, .75)), url('/../../fotos/07.jpeg');
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, .75)), url('https://live.staticflickr.com/65535/49895877421_5f3de299f8_b.jpg');
     background-repeat: no-repeat;
     background-position: center 30%;
     background-size: cover;
