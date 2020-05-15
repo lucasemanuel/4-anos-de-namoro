@@ -30,7 +30,7 @@ Dava já para perceber, é, isso mesmo que estão pensando, eu estava apaixonado
 Eu não sabia, mas já estava namorando com ela, se não tivessem me falado:
 <blockquote> - Lucas, você já está namorando! Isso não é uma pergunta, é uma afirmação. Todos vêem isso menos você e ela. </blockquote>
 Cara, eu sou um lesma, sou muito lento, ai foi depois dessas palavras que criei coragem e pedi a menina em namoro, ownnnn. :3. Uma semana depois fui pedir a mãe e ao padrasto, era um sábado de tarde, o dia tava nublado, me lembro como se fosse a quatro anos atrás. Eu cheguei na casa de Marla, de peito estufado e disse <s>“Dona Vitoria e seu Edilson, vim namorar com sua filha, quelé? alguma objeção?”</s> “, kkkk, não foi nada disso, conversamos e os coroas dela liberam o namoro.<br>
-Desde aquele dia e também dos antecessores minha vida mudou, comecei a crescer, amadurecer, ter a noção que tem uma vida, que pode não dividir a mesma casa, mas divide o mesmo sentimento que só cresce<sup>mais que o algoritmo do caixeiro-viajante</sup>.E hoje eu só agradeço porque você ocupa um espaço que ninguém nunca ocupou, você preencheu um vazio e fez vida onde não tinha, é pouco falar “Eu te amo” pelo muito que é para mim.
+Desde aquele dia e também dos antecessores minha vida mudou, comecei a crescer, amadurecer, ter a noção que tem uma vida, que pode não dividir a mesma casa, mas divide o mesmo sentimento que só cresce<sup>mais que o algoritmo do caixeiro-viajante</sup>. E hoje eu só agradeço porque você ocupa um espaço que ninguém nunca ocupou, você preencheu um vazio e fez vida onde não tinha, é pouco falar “Eu te amo” pelo muito que é para mim.
 `;
 
 </script>

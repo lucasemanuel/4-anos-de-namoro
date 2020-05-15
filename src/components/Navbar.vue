@@ -6,7 +6,6 @@
       <li><router-link to="/bye"></router-link></li>
       <li><router-link to="/courtship"></router-link></li>
       <li><router-link to="/gift"></router-link></li>
-      <li><router-link to="/"></router-link></li>
     </ul>
   </nav>
 </template>
@@ -36,7 +35,7 @@ export default {
   nav ul {
     padding: 0;
     margin: 0;
-    margin-top: 26px;
+    margin-top: 24px;
   }
 
   nav ul li {

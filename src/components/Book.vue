@@ -5,7 +5,10 @@
       <h1 class="title">{{ title }}</h1>
       <hr>
       <p v-html="store"></p>
-      <router-link :to="{ path: next }">Próxima</router-link>
+      <footer>
+        <router-link :to="{ path: next }">Próximo</router-link>
+      </footer>
+      <!-- <router-link :to="{ path: next }">Próximo</router-link> -->
     </section>
     <div class="img" :class="{ reverse: reverse }"></div>
   </main>
@@ -57,7 +60,7 @@ export default {
     font-size: 28px;
     text-align: center;
     text-transform: uppercase;
-    margin: 40px 0 10px;
+    margin: 24px 0 10px;
   }
 
   section hr {
@@ -71,7 +74,7 @@ export default {
   }
 
   section p {
-    margin: 32px 10% 0;
+    margin: 24px 10% 0;
     font-family: var(--text-font);
     font-style: normal;
     font-weight: normal;
@@ -80,13 +83,19 @@ export default {
     overflow-y: scroll;
   }
 
+  section footer {
+    align-items: flex-end;
+    display: flex;
+    flex: 1;
+  }
+
   section a {
     color: #000;
     font-family: var(--text-font);
     font-weight: bold;
     text-align: center;
     padding: 14px 36px;
-    margin: 32px;
+    margin: 24px;
     border-color: #000;
     transition: 1s;
   }
@@ -101,6 +110,24 @@ export default {
 
   div.img {
     height: 40vh;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 1px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 1px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
   }
 
   @media (min-width: 800px) {
@@ -121,30 +148,16 @@ export default {
       grid-column: 2;
     }
 
+    section h1 {
+      margin: 40px 0 10px;
+    }
+
+    section p {
+      margin: 32px 10% 0;
+    }
+
     section, div.img {
       height: 100vh;
-    }
-
-    section a {
-      margin: 64px 0;
-    }
-
-    ::-webkit-scrollbar {
-      width: 6px;
-    }
-
-    ::-webkit-scrollbar-track {
-      background: #f1f1f1; 
-      border-radius: 1px;
-    }
-    
-    ::-webkit-scrollbar-thumb {
-      background: #888; 
-      border-radius: 1px;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-      background: #555; 
     }
   }
 </style>

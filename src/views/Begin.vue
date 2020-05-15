@@ -24,11 +24,11 @@ export default {
 }
 
 const store = `
-Uma pequena resenha que deu grandes resultados... Em um dia - não qualquer - de agosto, em 2015, a noite, estava eu (Lucas Emanuel) instruindo um pelotão formado por desbravadores (criaturas que usam lenço amarelo) pois ao final daquele mesmo ano iríamos participar de um competição e estávamos treinando para ela.</br>
-Neste dia a instrução foi encerrada mais cedo, pois a mãe de uma desbravadora tinha feito um convite para o clube participar da festinha de aniversário de sua filha. Estando todos na casa de Marla (ela que tava fazendo 15 aninhos), começaram a servir as comidas de festa e logo após foi a hora de partir o bolo, mas antes do bolo vem o ‘parabéns’. Êêê....<br>
+Era só brincadeira... Em um dia - não qualquer - de agosto, em 2015, a noite, estava eu (Lucas Emanuel) instruindo um pelotão formado por desbravadores (criaturas que usam lenço amarelo) pois ao final daquele mesmo ano iríamos participar de um competição e estávamos treinando para ela.</br>
+Neste dia a instrução foi encerrada mais cedo, pois a mãe de uma desbravadora tinha feito um convite para o clube participar da festinha de aniversário de sua filha. Estando todos na casa de Marla (ela que tava fazendo 15 aninhos), começaram a servir as comidas de festa e logo após foi a hora de partir o bolo, mas antes do bolo vem o ‘parabéns’. Êêê...<br>
 "Parabéns para você... Muitos anos de vida. Com quem será?... Vai depender se <strong>Lucas</strong> (Eu? sim!) vai querer?<br>
 Nessa hora, eu pensei que iam chamar pelo um amigo meu, mas não, foi eu mesmo. 
-Depois da festa um tio dela ficou fazendo resenha, e foi a partir deste dia que eu tentei me tornar amigo da minha princesa.
+Depois da festa um tio dela ficou fazendo resenha, e foi a partir deste dia que eu tentei me tornar amigo Marla<sup>hoje minha princesa</sup>.
 `;
 
 </script>
